@@ -1,0 +1,479 @@
+@media only screen and (max-width: 1366px) {
+    /*BLOCK_GUARANTEE-------------------------------------*/
+    .guarant_title_bl {
+        min-width: 250px;
+    }
+}
+@media only screen and (max-width: 1280px) {
+    .container {
+        width: 90%;
+    }
+    /*BLOCK_ABOUT_US---------------------------------*/
+    .about_integric img {
+        top: 12px;
+        left: -35%;
+        width: 535px;
+        height: 328px;
+    }
+    .about_integric {
+        width: 74%;
+    }
+    .about_integric p, .about_integric h3 {
+        margin-bottom: 20px;
+    }
+    .about_integric div {
+        margin-right: 20px;
+    }
+    /*BLOCK_GUARANTEE-------------------------------------*/
+    .guarant_title_bl {
+        min-width: 200px;
+    }
+    .about_guarant ul li {
+        min-width: 380px;
+    }
+    /*BLOCK_NEWS-------------------------------------*/
+    .img_news img {
+        width: 300px;
+        height: 163px;
+    }
+    .img_news div span {
+        bottom: 20px;
+        left: 20px;
+    }
+    .news>div {
+        max-width: 300px;
+    }
+}
+@media only screen and (max-width: 1110px) {
+    /*BLOCK_HEADER---------------------------------*/
+    .useful_info a, .location a {
+        margin-right: 30px;
+    }
+    .useful_info p, .location p {
+        margin-left: 20px;
+    }
+    /*BLOCK_ABOUT_US---------------------------------*/
+    .about_integric img {
+        display: none;
+    }
+    .about_integric::before {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        content: "";
+        background: -webkit-linear-gradient(top right, rgba(255, 255, 255, 1), rgba(255, 255, 255, .5));
+        background: linear-gradient(to bottom left, rgba(255, 255, 255, 1), rgba(255, 255, 255, .5));
+    }
+    .about_integric div {
+        position: relative;
+    }
+    .about_integric {
+        width: 100%;
+        height: 380px;
+        background: url("../img/map.png") no-repeat;
+    }
+    .about_integric p, .about_integric h3 {
+        margin-bottom: 30px;
+    }
+    /*BLOCK_GUARANTEE-------------------------------------*/
+    .guarant_title_bl {
+        min-width: 190px;
+    }
+    .about_guarant ul li {
+        min-width: 345px;
+    }
+    /*BLOCK_NEWS-------------------------------------*/
+    .news div a {
+        line-height: 28px;
+    }
+    .news div p {
+        line-height: 25px;
+    }
+    .img_news>div span {
+        padding: 4px 10px;
+    }
+    /*FOOTER------------------------------------------------------*/
+    footer .container {
+        margin-bottom: 20px;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    footer .container>a {
+        margin-top: 20px;
+    }
+}
+@media only screen and (max-width: 980px) {
+    /*BLOCK_HEADER---------------------------------*/
+    .header_ic_set {
+        -ms-flex-item-align: start;
+        align-self: flex-start;
+    }
+    .useful_info a, .location a {
+        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+    }
+    .useful_info_icon, .location_icon {
+        margin-left: 15px;
+    }
+    .useful_info p, .location p {
+        margin-left: 0;
+        text-align: center;
+    }
+    .location p {
+        margin-top: 12px;
+    }
+    /*BLOCK_MENU------------------------------*/
+    nav a {
+        padding: 0 2px;
+        font-size: 21px;
+    }
+    /*BLOCK_GUARANTEE-------------------------------------*/
+    .guarantee .container {
+        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+    }
+    .guarant_title_bl {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        min-width: 190px;
+        margin-bottom: 20px;
+    }
+    .guarant_title_bl a {
+        margin-left: 15px;
+        -ms-flex-item-align: center;
+        align-self: center;
+    }
+    .about_guarant ul {
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+    }
+    /*BLOCK_NEWS-------------------------------------*/
+    .news {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .news>div:last-child {
+        display: block;
+    }
+    .news>div {
+        max-width: 350px;
+        margin-top: 20px;
+    }
+    .img_news img, .img_news div {
+        width: 350px;
+        height: 190px;
+    }
+    /*BLOCK_NUMB_DOC------------------------------------*/
+    .bl_documents {
+        margin-left: 10px;
+    }
+}
+@media only screen and (max-width: 800px) {
+    /*BLOCK_HEADER---------------------------------*/
+    .header_ic_set {
+        width: 100%;
+        -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+        order: 1;
+    }
+    .header_ic_set {
+        margin-top: 20px;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+    }
+    .useful_info_icon, .location_icon {
+        margin: auto;
+    }
+    .search {
+        margin-right: 20px;
+    }
+    .useful_info p, .location p {
+        max-width: 200px;
+    }
+    .search a {
+        position: relative;
+    }
+    /*BLOCK_NEWS-------------------------------------*/
+    .news_title_bl a {
+        padding-left: 30%;
+    }
+    .news_title_bl a:hover {
+        margin-left: 30%;
+    }
+    /*BLOCK_NUMB_DOC------------------------------------*/
+    .block_numb_doc .container {
+        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+    }
+    .bl_numbers {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+        margin-bottom: 80px;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+    }
+    .bl_numbers p {
+        margin-bottom: 5px;
+    }
+    .bl_numbers i {
+        float: left;
+        width: 48px;
+        padding: 5px 2px 9px;
+        text-align: center;
+    }
+    .bl_numbers a {
+        -ms-flex-item-align: end;
+        align-self: flex-end;
+    }
+    .bl_documents {
+        margin-left: 0;
+    }
+    .bl_documents ul li img {
+        display: block;
+        width: 101px;
+        margin: 0 auto 25px;
+    }
+    .bl_documents ul li a {
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 768px) {
+    /*BLOCK_HEADER---------------------------------*/
+    #mod_field {
+        left: -150px;
+    }
+    /*BLOCK_ABOUT_US---------------------------------*/
+    .about_integric {
+        background-position: center;
+        background-size: contain;
+    }
+    .about_integric div {
+        float: none;
+        margin: 0 auto;
+    }
+    .about_integric p, .about_integric button {
+        display: block;
+        margin: 0 auto 30px;
+    }
+    /*NAV-----------------------------------------*/
+    #touch_menu {
+        position: absolute;
+        z-index: 100;
+        display: inline-block;
+        margin-right: 25px;
+    }
+    nav {
+        position: absolute;
+        right: 0;
+        display: none;
+        width: 250px;
+    }
+    .mob_menu {
+        position: absolute;
+        z-index: 100;
+        top: 280px;
+        right: 10%;
+    }
+    nav a {
+        display: block;
+        padding: 12px;
+        text-align: center;
+        color: #ececef;
+    }
+    nav a:nth-child(odd) {
+        color: #000;
+        background-color: #f4f5f0;
+    }
+    nav a:nth-child(even) {
+        color: #fff;
+        background-color: #07060e;
+    }
+    nav a:nth-child(odd):focus {
+        text-decoration: underline;
+        background-color: rgba(244, 245, 240, .7);
+    }
+    nav a:nth-child(even):focus {
+        text-decoration: underline;
+        background-color: rgba(7, 6, 14, .7);
+    }
+    nav a::before, nav a::after {
+        display: none;
+    }
+    /*BLOCK_GUARANTEE-------------------------------------*/
+    .about_guarant ul {
+        justify-content: space-around;
+    }
+    .about_guarant ul li {
+        min-width: 280px;
+    }
+    .about_guarant ul li i {
+        margin-right: 0;
+        font-size: 45px;
+    }
+    .about_guarant ul li:nth-child(even) i {
+        margin: 0 0 0 -15px;
+    }
+    .about_guarant ul li:last-child i {
+        padding: 0 20px 0 0;
+    }
+    /*BLOCK_NEWS-------------------------------------*/
+    .img_news div {
+        width: 350px;
+        height: 190px;
+        margin: auto;
+    }
+    .news>div {
+        max-width: 90%;
+        margin-top: 25px;
+        text-align: center;
+    }
+    .news div p {
+        padding-left: 18px;
+        text-align: center;
+        line-height: 30px;
+    }
+    .news>div>p::after {
+        position: absolute;
+        bottom: -7px;
+        left: 0;
+        width: 80px;
+        height: 2px;
+        content: '';
+        background-color: #d7d7d7;
+    }
+    /*PARTNERS----------------------------------------------------*/
+    .carousel {
+        max-width: 98%;
+    }
+}
+@media only screen and (max-width: 640px) {
+    /*BLOCK_ABOUT_US---------------------------------*/
+    .about_integric h3 {
+        margin-bottom: 20px;
+    }
+    .about_integric p {
+        min-height: 200px;
+    }
+    /*BLOCK_GUARANTEE-------------------------------------*/
+    .about_guarant ul li {
+        width: 400px;
+        min-width: 320px;
+    }
+    .about_guarant ul li i {
+        width: 75px;
+        margin-right: 10px;
+        font-size: 45px;
+    }
+    /*FOOTER------------------------------------------------------*/
+    footer .container>p {
+        padding-top: 10px;
+    }
+}
+@media only screen and (max-width: 480px) {
+    /*BLOCK_HEADER---------------------------------*/
+    .ph_number a {
+        font-size: 20px;
+    }
+    .contacts_head a:last-child {
+        float: right;
+        margin-left: 0;
+    }
+    .search a:hover i {
+        top: -1px;
+        left: -34px;
+        transform: rotate(90deg);
+        font-size: 70px;
+    }
+    .search_active.on i {
+        top: -1px;
+        left: -34px;
+        transform: rotate(90deg);
+        font-size: 70px;
+    }
+    /*NAV-----------------------------------------*/
+    /*BLOCK_ABOUT_US---------------------------------*/
+    .about_integric, .about_integric::before {
+        height: 420px;
+        background-image: none;
+    }
+    .about_integric p {
+        min-height: 240px;
+        margin-bottom: 15px;
+        padding: 0 1px;
+        text-align: center;
+        font-size: 14px;
+    }
+    /*BLOCK_GUARANTEE-------------------------------------*/
+    .about_guarant ul li i {
+        margin-left: 10px;
+    }
+    .about_guarant ul li:nth-child(even) i {
+        margin: 0 0 0 -5px;
+    }
+    /*BLOCK_NEWS-------------------------------------*/
+    .news_title_bl a, .bl_title_doc a {
+        padding-left: 10%;
+    }
+    .news_title_bl a:hover, .bl_title_doc a:hover {
+        margin-left: 10%;
+    }
+    /*FOOTER------------------------------------------------------*/
+    .strateg_part a:nth-child(2) img {
+        margin-right: 10px;
+    }
+    footer .container>a img, footer .container>a p {
+        margin-left: 10px;
+        line-height: 20px;
+    }
+    footer .container>a p {
+        max-width: 180px;
+    }
+}
+@media only screen and (max-width: 400px) {
+    /*BLOCK_HEADER---------------------------------*/
+    header .container>div:first-child img {
+        width: 90%;
+    }
+    header .container>div:first-child p {
+        padding-top: 10px;
+        text-align: left;
+        font-size: 18px;
+    }
+    header .container>div:first-child {
+        width: 150px;
+    }
+    .contacts {
+        width: 170px;
+    }
+    .container {
+        width: 98%;
+    }
+    /*BLOCK_NEWS-------------------------------------*/
+    .img_news img, .img_news div {
+        max-width: 315px;
+        height: 171px;
+    }
+}
+@media only screen and (max-width: 320px) {
+    /*BLOCK_NEWS-------------------------------------*/
+    .news {
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+    }
+}
